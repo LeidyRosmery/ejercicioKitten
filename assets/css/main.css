@@ -2,12 +2,12 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-
 }
 
 .container>* {
     position: absolute;
 }
+
 img {
     display: block;
     height: 200px;
@@ -18,7 +18,7 @@ div {
     background-image: url(../img/maxresdefault.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-      height: 100vh;
+    height: 100vh;
 }
 
 
@@ -27,7 +27,7 @@ div {
 @media only screen and (min-width: 465px) {
     div {
         background-image: url(../img/Landscape.jpg);
-       }
+    }
 }
 
 
